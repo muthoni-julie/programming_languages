@@ -1,0 +1,62 @@
+cp - allows one to copy a file
+     Syntax:$cp[options] source_file destination_file
+mv - allows one to move files
+     Syntax:$mv example.txt~/document/
+rm - removes the specified file
+     Syntax:$rm[options][files or directories]
+rmdir - remove the specified file
+     Syntax:$rmdir[option][directory]
+mkdir - allows one to create a new directory
+     Syntax:$mkdir[options]directory_name
+cat - lets one view file contents on your terminal
+    Syntax:$cat filename.txt
+touch - create empty files or update the timestamps of existing files
+      Syntax:$touch[options]filename
+nano - allows you to create, edit and save text files
+      Syntax:$nano newfile.txt
+passwd - change user password using terminal
+      Syntax:$passwd<user>
+whatis - shows brief description of what is the functionality of specific built in commands
+      Syntax:$whatis<command>
+exit - used to exit terminal
+      Syntax:ctrl+x
+shutdown - shuts down the system
+      Syntax: shutdown -h
+apt-get update - updates the database and lets your system know if there are newer packages available or not
+        Syntax: sudo apt-get updates 
+ls- used to list the contents of a directory
+    Syntax:$ls
+cd - change the current working directory 
+     Syntax:$cd directory
+apt-get upgrade - upgrade all packages with available updates
+      Syntax: sudo apt-get upgrade
+chmod - changes the permission or mode by setting to read,write or access permissions on a file
+      Syntax: chomd filename.txt
+echo - outputs the strings that are passed to it as arguments
+    Syntax:$echo
+head - helps you get the first lines of a text file
+   Syntax: head filename
+tail - get the last 10 lines of the text file
+      Syntax:tail -f filename
+wget - used to download content from internet
+      Syntax:wget link
+ssh - used to command to connect to your remote server or other machine
+   Syntax: ssh username@domain.com
+df - report the file system disk space usage
+   Syntax:df -h
+uname - used to get detailed information
+     Syntax: $ uname -a
+history - shows the list of commands executed
+      Syntax:$ history
+grep - searches for a pattern in which specific word lies grep lines
+      Syntax: $ cat file.txt | grep(a)
+zip or unzip - zip converts files to zip archive. Unzip unzips the zipped file
+      Syntax: $ gzip file.txt
+              $ gunzip file.txt
+hostname - prints the users name on the terminal
+          Syntax: $ hostname
+w - displays the user details that are currently logged into the system
+     Syntax: $ w
+useradd - allows another user to use the system 
+      Syntax: $ sudo useradd name
+
