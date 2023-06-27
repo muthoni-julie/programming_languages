@@ -1,0 +1,13 @@
+#Function pass by variable
+def add(data):
+    data[0] += 10
+    print("Inside function:", data[0])
+
+# Pass by variable demonstration
+print("Pass by variable")
+marks = [20]
+print("Before add function call:", marks[0])
+add(marks)
+print("After add function call:", marks[0])
+
+print("\n")

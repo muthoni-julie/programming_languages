@@ -1,0 +1,11 @@
+# Function pass by reference
+def append(student):
+    student.append(4)
+    print("Inside function:", student)
+
+# Pass by reference demonstration
+print("Pass by reference")
+student = [1, 2, 3]
+print("Before function call:", student)
+append(student)
+print("After function call:",student)

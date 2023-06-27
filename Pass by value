@@ -1,0 +1,13 @@
+# Function pass by value declaration
+def multiply(num):
+    num *= 2
+    print("Inside function:", num)
+
+# Pass by value demonstration
+print("Pass by value")
+value = 10
+print("Before multiply function call:", value)
+multiply(value)
+print("After multiply function call:", value)
+
+print("\n")
